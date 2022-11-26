@@ -2,4 +2,8 @@
 
 {% block content %}
     <p> Ceci est la base des news</p>
+ {% for item in news %}
+    <p> {{ item.Titre }}</p><p> {{ item.Auteur }}</p>
+{% endfor %}
+
 {% endblock %}
