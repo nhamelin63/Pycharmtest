@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <p> Ceci est le detail des news</p>
+    <p> {{ object.Titre }}</p><p> {{ object.Auteur }}</p>
+<div>
+    <div class="row">
+        <div class="col-md-6">
+            {{ object.contenue}}
+            </div>
+
+{% endblock %}
